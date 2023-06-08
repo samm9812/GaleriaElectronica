@@ -3,7 +3,7 @@ var students = [
     name: "Juan Pablo Restrepo Parra",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/juanRestrepo.jpg",
+    photo: "pics/juanRestrepo.jpg",
     videos: [
       {
         description: "luz nocturna",
@@ -31,7 +31,7 @@ var students = [
     name: "Juan Pablo Gomez Becerra",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/gomez.PNG",
+    photo: "pics/gomez.PNG",
     videos: [
       {
         description: "luz nocturna",
@@ -52,7 +52,7 @@ var students = [
     name: "Alejandro Arbelaez",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/alejandro.PNG",
+    photo: "pics/alejandro.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -76,7 +76,7 @@ var students = [
     name: "Valeria Orozco Rodriguez",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/val.PNG",
+    photo: "pics/val.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -100,7 +100,7 @@ var students = [
     name: "Dayana Estefania Castillo",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/DayanaCastillo.PNG",
+    photo: "pics/DayanaCastillo.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -128,7 +128,7 @@ var students = [
     name: "Christelle Bermudez Velez",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/bermudez.PNG",
+    photo: "pics/bermudez.PNG.jpg",
     videos: [
       {
         description: "temporizador variable",
@@ -156,7 +156,7 @@ var students = [
     name: "Juan Sebastian Garcia serna",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/Garcia.PNG",
+    photo: "pics/Garcia.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -176,7 +176,7 @@ var students = [
     name: "Ricardo Dorado",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/ricardo.PNG",
+    photo: "pics/ricardo.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -196,7 +196,7 @@ var students = [
     name: "Karen Dayana Henao Sanchez",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/henao.PNG",
+    photo: "pics/henao.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -216,7 +216,7 @@ var students = [
     name: "Jean Paul Naranjo",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/naranjio.PNG",
+    photo: "pics/naranjio.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -236,7 +236,7 @@ var students = [
     name: "Sebastian Pareja Loaiza",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/pareja.PNG",
+    photo: "pics/pareja.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -264,7 +264,7 @@ var students = [
     name: "Kevin Stiven Grisales",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/grisales.PNG",
+    photo: "pics/grisales.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -292,7 +292,7 @@ var students = [
     name: "Sebastian Murcia Serrano",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/murcia.PNG",
+    photo: "pics/murcia.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -316,7 +316,7 @@ var students = [
     name: "Oscar David Obando",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/obando.PNG",
+    photo: "pics/obando.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -341,7 +341,7 @@ var students = [
     name: "Juan David Botero",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "/assets/botero.PNG",
+    photo: "pics/botero.PNG",
     videos: [
       {
         description: "temporizador variable",
@@ -369,7 +369,7 @@ var students = [
     name: "Juan Sebastian Garcia Loaiza",
     semester: 1,
     program: "ingenieria electronica",
-    photo: "",
+    photo: "\Users\CASA\Desktop\galeria\assets\juan",
     videos: [
     
       {
@@ -497,6 +497,7 @@ function createGallery() {
 
     var studentPhoto = document.createElement("img");
     studentPhoto.src = student.photo;
+    studentPhoto.alt = "no envio foto y no sale en video para screenshot"
     studentInfo.appendChild(studentPhoto);
 
     var studentDetails = document.createElement("div");
